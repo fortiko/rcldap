@@ -16,7 +16,7 @@ fullname=$3
 
 #------------ configuration start --------------------------------
 server="ldap://localhost:389";
-suffix="dc=qustodium,dc=net";
+suffix="dc=hostname,dc=tld";
 rootdn="cn=admin,$suffix";
 
 abook_name="rcabook";

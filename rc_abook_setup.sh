@@ -9,7 +9,7 @@ config="/etc/ldap/slapd.conf";
 
 # the LDAP base suffix and admin rootdn
 # -> this must correspond with /etc/ldap/slapd.conf
-suffix="dc=qustodium,dc=net";
+suffix="dc=hostname,dc=tld";
 rootdn="cn=admin,$suffix";
 organisation="Qustodium LDAP Addressbook Server";
 
